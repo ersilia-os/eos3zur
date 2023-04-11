@@ -2,8 +2,8 @@
 import os
 import csv
 import sys
-from rdkit import Chem
-from rdkit.Chem.Descriptors import MolWt
+from molfeat.trans.fp import FPVecTransformer
+
 
 # parse arguments
 input_file = sys.argv[1]
@@ -14,8 +14,9 @@ root = os.path.dirname(os.path.abspath(__file__))
 
 # my model
 def my_model(smiles_list):
-    return [MolWt(Chem.MolFromSmiles(smi)) for smi in smiles_list]
-
+    transformer = FPVecTransformer(kind="estate")
+    features = transformer(smiles_list)
+    return features
 
 # read SMILES from .csv file, assuming one column with header
 with open(input_file, "r") as f:
@@ -29,6 +30,6 @@ outputs = my_model(smiles_list)
 # write output in a .csv file
 with open(output_file, "w") as f:
     writer = csv.writer(f)
-    writer.writerow(["value"])  # header
+    writer.writerow(["feature{}".format(i) for i in range(79)])  # header
     for o in outputs:
-        writer.writerow([o])
+        writer.writerow(o)
