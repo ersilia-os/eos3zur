@@ -1,9 +1,9 @@
 {
-    "Identifier": "",
-    "Slug": "",
-    "Status": "",
-    "Title": "",
-    "Description": "",
+    "Identifier": "eos3zur",
+    "Slug": "molfeat-estate",
+    "Status": "In progress",
+    "Title": "Estate Molecular Descriptors",
+    "Description": "Electrotopological state (Estate) indices are numerical values computed for each atom in a molecule, and which encode information about both the topological environment of that atom and the electronic interactions due to all other atoms in the molecule",
     "Mode": "",
     "Task": [],
     "Input": [],
@@ -12,8 +12,11 @@
     "Output Type": [],
     "Output Shape": "",
     "Interpretation": "",
-    "Tag": [],
-    "Publication": "",
-    "Source Code": "",
-    "License": ""
+    "Tag": [
+        "Descriptor",
+        "Compound representation"
+    ],
+    "Publication": "https://link.springer.com/article/10.1023/A:1015952613760",
+    "Source Code": "https://molfeat.datamol.io/featurizers/estate",
+    "License": "Apache 2.0"
 }
