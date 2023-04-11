@@ -18,5 +18,5 @@
     ],
     "Publication": "https://link.springer.com/article/10.1023/A:1015952613760",
     "Source Code": "https://molfeat.datamol.io/featurizers/estate",
-    "License": "Apache 2.0"
+    "License": "Apache-2.0"
 }
