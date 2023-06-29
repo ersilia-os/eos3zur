@@ -5,11 +5,19 @@
     "Title": "Estate Molecular Descriptors",
     "Description": "Electrotopological state (Estate) indices are numerical values computed for each atom in a molecule, and which encode information about both the topological environment of that atom and the electronic interactions due to all other atoms in the molecule",
     "Mode": "Pretrained",
-    "Task": ["Representation"],
-    "Input": ["Compound"],
+    "Task": [
+        "Representation"
+    ],
+    "Input": [
+        "Compound"
+    ],
     "Input Shape": "Single",
-    "Output": ["Descriptor"],
-    "Output Type": ["Float"],
+    "Output": [
+        "Descriptor"
+    ],
+    "Output Type": [
+        "Float"
+    ],
     "Output Shape": "List",
     "Interpretation": "79 Electrotopological features",
     "Tag": [
@@ -18,5 +26,11 @@
     ],
     "Publication": "https://link.springer.com/article/10.1023/A:1015952613760",
     "Source Code": "https://molfeat.datamol.io/featurizers/estate",
-    "License": "Apache-2.0"
+    "License": "Apache-2.0",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3zur.zip",
+    "DockerHub": "https://hub.docker.com/r/ersiliaos/eos3zur",
+    "Docker Architecture": [
+        "AMD64",
+        "ARM64"
+    ]
 }

@@ -23,6 +23,11 @@ Electrotopological state (Estate) indices are numerical values computed for each
 * [Source Code](https://molfeat.datamol.io/featurizers/estate)
 * Ersilia contributor: [GemmaTuron](https://github.com/GemmaTuron)
 
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos3zur)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3zur.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos3zur) (AMD64, ARM64)
+
 ## Citation
 
 If you use this model, please cite the [original authors](https://link.springer.com/article/10.1023/A:1015952613760) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
