@@ -1,7 +1,7 @@
 {
     "Identifier": "eos3zur",
     "Slug": "molfeat-estate",
-    "Status": "Done",
+    "Status": "Ready",
     "Title": "Estate Molecular Descriptors",
     "Description": "Electrotopological state (Estate) indices are numerical values computed for each atom in a molecule, and which encode information about both the topological environment of that atom and the electronic interactions due to all other atoms in the molecule",
     "Mode": "Pretrained",
