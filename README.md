@@ -26,7 +26,7 @@ Electrotopological state (Estate) indices are numerical values computed for each
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos3zur)
 * [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3zur.zip)
-* [DockerHub](https://hub.docker.com/r/ersiliaos/eos3zur) (AMD64, ARM64)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos3zur) (AMD64)
 
 ## Citation
 
