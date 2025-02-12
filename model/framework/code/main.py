@@ -30,6 +30,6 @@ outputs = my_model(smiles_list)
 # write output in a .csv file
 with open(output_file, "w") as f:
     writer = csv.writer(f)
-    writer.writerow(["feature-{:02d}".format(i) for i in range(79)])  # header
+    writer.writerow(["feature_{:02d}".format(i) for i in range(79)])  # header
     for o in outputs:
         writer.writerow(o)
