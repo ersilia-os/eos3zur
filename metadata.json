@@ -3,32 +3,44 @@
     "Slug": "molfeat-estate",
     "Status": "Ready",
     "Title": "Estate Molecular Descriptors",
-    "Description": "Electrotopological state (Estate) indices are numerical values computed for each atom in a molecule, and which encode information about both the topological environment of that atom and the electronic interactions due to all other atoms in the molecule",
-    "Mode": "Pretrained",
-    "Task": [
-        "Representation"
-    ],
+    "Description": "Electrotopological state (Estate) indices are numerical values computed for each atom in a molecule, and which encode information about both the topological environment of that atom and the electronic interactions due to all other atoms in the molecule. Here we provide the DataMol implementation of Estate Descriptors.\n",
+    "Source": "Local",
+    "Source Type": "External",
     "Input": [
         "Compound"
+    ],
+    "Input Dimension": 1,
+    "Task": "Representation",
+    "Subtask": "Featurization",
+    "Biomedical Area": [
+        "Any"
+    ],
+    "Target Organism": [
+        "Not Applicable"
     ],
     "Output": [
         "Descriptor"
     ],
-    "Output Type": [
-        "Float"
-    ],
-    "Output Shape": "List",
+    "Output Dimension": 79,
+    "Output Consistency": "Fixed",
     "Interpretation": "79 Electrotopological features",
     "Tag": [
         "Fingerprint",
         "Descriptor"
     ],
     "Publication": "https://link.springer.com/article/10.1023/A:1015952613760",
+    "Publication Type": "Peer reviewed",
+    "Publication Year": 1990,
     "Source Code": "https://molfeat.datamol.io/featurizers/estate",
     "License": "Apache-2.0",
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3zur.zip",
+    "Contributor": "GemmaTuron",
+    "Incorporation Date": "2023-04-11",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos3zur",
     "Docker Architecture": [
         "AMD64"
+    ],
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3zur.zip",
+    "Deployment": [
+        "Local"
     ]
 }
