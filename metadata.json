@@ -40,9 +40,16 @@
     "Incorporation Date": "2023-04-11",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3zur.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos3zur",
-    "Docker Architecture": [
-        "AMD64"
-    ],
+    "Docker Architecture": "AMD64",
+    "Docker Pack Method": "FastAPI",
     "Model Size": 1.0,
-    "Environment Size": 5896.0
+    "Environment Size": 5896.0,
+    "Image Size": 5774.36,
+    "Computational Performance 4": 38.82,
+    "Computational Performance 7": 28.05,
+    "Computational Performance 12": 28.1,
+    "Computational Performance 20": 28.15,
+    "Computational Performance 34": 28.31,
+    "Computational Performance 58": 28.5,
+    "Computational Performance 100": 28.61
 }
