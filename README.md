@@ -50,7 +50,12 @@ _10 of 79 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `5896`
+- **Image Size (Mb):** `5774.36`
 
+**Computational Performance (seconds):**
+- 4 inputs: `38.82`
+- 20 inputs: `28.15`
+- 100 inputs: `28.61`
 
 ### References
 - **Source Code**: [https://molfeat.datamol.io/featurizers/estate](https://molfeat.datamol.io/featurizers/estate)
