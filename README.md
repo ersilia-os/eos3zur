@@ -44,18 +44,18 @@ _10 of 79 columns are shown_
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos3zur](https://hub.docker.com/r/ersiliaos/eos3zur)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3zur.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3zur.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `5917`
-- **Image Size (Mb):** `5774.17`
+- **Image Size (Mb):** `5942.04`
 
 **Computational Performance (seconds):**
-- 10 inputs: `38.61`
-- 100 inputs: `28.24`
-- 10000 inputs: `649.7`
+- 10 inputs: `37.05`
+- 100 inputs: `27.15`
+- 10000 inputs: `608.33`
 
 ### References
 - **Source Code**: [https://molfeat.datamol.io/featurizers/estate](https://molfeat.datamol.io/featurizers/estate)
