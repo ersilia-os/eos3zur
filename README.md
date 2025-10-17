@@ -4,6 +4,7 @@ Electrotopological state (Estate) indices are numerical values computed for each
 
 This model was incorporated on 2023-04-11.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos3zur`
@@ -13,7 +14,7 @@ This model was incorporated on 2023-04-11.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Fingerprint`, `Descriptor`
 
 ### Input
