@@ -2,8 +2,7 @@
 
 Electrotopological state (Estate) indices are numerical values computed for each atom in a molecule, and which encode information about both the topological environment of that atom and the electronic interactions due to all other atoms in the molecule. Here we provide the DataMol implementation of Estate Descriptors.
 
-This model was incorporated on 2023-04-11.
-
+This model was incorporated on 2023-04-11.Last packaged on 2025-10-17.
 
 ## Information
 ### Identifiers
@@ -45,18 +44,18 @@ _10 of 79 columns are shown_
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos3zur](https://hub.docker.com/r/ersiliaos/eos3zur)
-- **Docker Architecture:** `AMD64`, `ARM64`
+- **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3zur.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3zur.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `5912`
-- **Image Size (Mb):** `5942.04`
+- **Image Size (Mb):** `5944.35`
 
 **Computational Performance (seconds):**
-- 10 inputs: `37.05`
-- 100 inputs: `27.15`
-- 10000 inputs: `608.33`
+- 10 inputs: `29.89`
+- 100 inputs: `19.76`
+- 10000 inputs: `161.95`
 
 ### References
 - **Source Code**: [https://molfeat.datamol.io/featurizers/estate](https://molfeat.datamol.io/featurizers/estate)
