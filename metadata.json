@@ -38,19 +38,18 @@
     "License": "Apache-2.0",
     "Contributor": "GemmaTuron",
     "Incorporation Date": "2023-04-11",
+    "Last Packaging Date": "2025-10-17",
+    "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3zur.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos3zur",
-    "Docker Architecture": [
-        "AMD64",
-        "ARM64"
-    ],
+    "Docker Architecture": "AMD64",
     "Model Size": 1.0,
     "Environment Size": 5912.0,
-    "Image Size": 5942.04,
-    "Computational Performance 1": 37.05,
-    "Computational Performance 2": 26.76,
-    "Computational Performance 3": 27.15,
-    "Computational Performance 4": 131.74,
-    "Computational Performance 5": 608.33,
+    "Image Size": 5944.35,
+    "Computational Performance 1": 29.89,
+    "Computational Performance 2": 19.69,
+    "Computational Performance 3": 19.76,
+    "Computational Performance 4": 45.37,
+    "Computational Performance 5": 161.95,
     "Docker Pack Method": "FastAPI"
 }
