@@ -59,7 +59,7 @@ _10 of 79 columns are shown_
 
 ### References
 - **Source Code**: [https://molfeat.datamol.io/featurizers/estate](https://molfeat.datamol.io/featurizers/estate)
-- **Publication**: [https://link.springer.com/article/10.1023/A:1015952613760](https://link.springer.com/article/10.1023/A:1015952613760)
+- **Publication**: [https://doi.org/10.1023/A:1015952613760](https://doi.org/10.1023/A:1015952613760)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `1990`
 - **Ersilia Contributor:** [GemmaTuron](https://github.com/GemmaTuron)
