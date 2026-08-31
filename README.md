@@ -28,16 +28,16 @@ This model was incorporated on 2023-04-11.Last packaged on 2025-10-17.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| feature_00 | float |  | Feature 0 for the Estate descriptors |
-| feature_01 | float |  | Feature 1 for the Estate descriptors |
-| feature_02 | float |  | Feature 2 for the Estate descriptors |
-| feature_03 | float |  | Feature 3 for the Estate descriptors |
-| feature_04 | float |  | Feature 4 for the Estate descriptors |
-| feature_05 | float |  | Feature 5 for the Estate descriptors |
-| feature_06 | float |  | Feature 6 for the Estate descriptors |
-| feature_07 | float |  | Feature 7 for the Estate descriptors |
-| feature_08 | float |  | Feature 8 for the Estate descriptors |
-| feature_09 | float |  | Feature 9 for the Estate descriptors |
+| feat_00 | float |  | Feature 0 for the Estate descriptors |
+| feat_01 | float |  | Feature 1 for the Estate descriptors |
+| feat_02 | float |  | Feature 2 for the Estate descriptors |
+| feat_03 | float |  | Feature 3 for the Estate descriptors |
+| feat_04 | float |  | Feature 4 for the Estate descriptors |
+| feat_05 | float |  | Feature 5 for the Estate descriptors |
+| feat_06 | float |  | Feature 6 for the Estate descriptors |
+| feat_07 | float |  | Feature 7 for the Estate descriptors |
+| feat_08 | float |  | Feature 8 for the Estate descriptors |
+| feat_09 | float |  | Feature 9 for the Estate descriptors |
 
 _10 of 79 columns are shown_
 ### Source and Deployment
