@@ -1,6 +1,6 @@
 # Estate Molecular Descriptors
 
-Electrotopological state (Estate) indices are numerical values computed for each atom in a molecule, and which encode information about both the topological environment of that atom and the electronic interactions due to all other atoms in the molecule. Here we provide the DataMol implementation of Estate Descriptors.
+Calculates 79 electrotopological-state indices, descriptors introduced by Kier and Hall that fuse each atom's electronic character with its position in the molecular graph. Every atom type receives a value combining its intrinsic state with perturbation from all other atoms, weighted by topological distance, so the resulting profile registers both what an atom is and where it sits. The descriptors are computed deterministically from the two-dimensional structure, need no conformer, and remain interpretable per atom type.
 
 This model was incorporated on 2023-04-11.Last packaged on 2026-08-31.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2023-04-11.Last packaged on 2026-08-31.
 ### Output
 - **Output Dimension:** `79`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** 79 Electrotopological features
+- **Interpretation:** 79 electrotopological-state indices describing electronic and topological character per atom type.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
