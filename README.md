@@ -1,6 +1,6 @@
 # Estate Molecular Descriptors
 
-Calculates 79 electrotopological-state indices, descriptors introduced by Kier and Hall that fuse each atom's electronic character with its position in the molecular graph. Every atom type receives a value combining its intrinsic state with perturbation from all other atoms, weighted by topological distance, so the resulting profile registers both what an atom is and where it sits. The descriptors are computed deterministically from the two-dimensional structure, need no conformer, and remain interpretable per atom type.
+Calculates 79 electrotopological-state indices, descriptors introduced by Kier and Hall that fuse each atom's electronic character with its position in the molecular graph. Every atom type receives a value combining its intrinsic state with perturbation from all other atoms, weighted by topological distance, so the resulting profile registers both what an atom is and where it sits. Computed here through the molfeat implementation from Datamol, deterministically from the two-dimensional structure and with no conformer required.
 
 This model was incorporated on 2023-04-11.Last packaged on 2026-08-31.
 
