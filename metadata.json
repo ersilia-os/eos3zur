@@ -3,7 +3,7 @@
     "Slug": "molfeat-estate",
     "Status": "Ready",
     "Title": "Estate Molecular Descriptors",
-    "Description": "Calculates 79 electrotopological-state indices, descriptors introduced by Kier and Hall that fuse each atom's electronic character with its position in the molecular graph. Every atom type receives a value combining its intrinsic state with perturbation from all other atoms, weighted by topological distance, so the resulting profile registers both what an atom is and where it sits. Computed here through the molfeat implementation from Datamol, deterministically from the two-dimensional structure and with no conformer required.",
+    "Description": "Calculates 79 electrotopological-state indices, descriptors introduced by Kier and Hall that fuse each atoms electronic character with its position in the molecular graph. Every atom type receives a value combining its intrinsic state with perturbation from all other atoms, weighted by topological distance, so the resulting profile registers both what an atom is and where it sits. Computed here through the molfeat implementation from Datamol, deterministically from the two-dimensional structure and with no conformer required.",
     "Deployment": [
         "Local"
     ],
@@ -39,7 +39,7 @@
     "Contributor": "GemmaTuron",
     "Incorporation Date": "2023-04-11",
     "Last Packaging Date": "2026-08-31",
-    "Release": "v2.0.0",
+    "Release": "v2.0.1",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3zur.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos3zur",
     "Docker Architecture": [
