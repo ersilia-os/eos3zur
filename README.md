@@ -1,8 +1,9 @@
 # Estate Molecular Descriptors
 
-Calculates 79 electrotopological-state indices, descriptors introduced by Kier and Hall that fuse each atom's electronic character with its position in the molecular graph. Every atom type receives a value combining its intrinsic state with perturbation from all other atoms, weighted by topological distance, so the resulting profile registers both what an atom is and where it sits. Computed here through the molfeat implementation from Datamol, deterministically from the two-dimensional structure and with no conformer required.
+Calculates 79 electrotopological-state indices, descriptors introduced by Kier and Hall that fuse each atoms electronic character with its position in the molecular graph. Every atom type receives a value combining its intrinsic state with perturbation from all other atoms, weighted by topological distance, so the resulting profile registers both what an atom is and where it sits. Computed here through the molfeat implementation from Datamol, deterministically from the two-dimensional structure and with no conformer required.
 
-This model was incorporated on 2023-04-11.Last packaged on 2026-08-31.
+This model was incorporated on 2023-04-11.
+Last packaged on 2026-08-31.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 79 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos3zur](https://hub.docker.com/r/ersiliaos/eos3zur)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3zur.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3zur.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos3zur_v2.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos3zur_v2.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
